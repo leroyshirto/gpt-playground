@@ -39,11 +39,11 @@ def similarity(embedding_a, embedding_b):
 
 if __name__ == '__main__':
     
-    i_a = 'That is a happy person'
-    i_b = 'That is a sad person'
+    input_a = 'That is a happy person'
+    input_b = 'That is a sad person'
 
-    em_a = generate_embeddings(i_a)
-    em_b = generate_embeddings(i_b)
+    embedding_a = generate_embeddings(input_a)
+    embedding_b = generate_embeddings(input_b)
 
-    print(similarity(em_a, em_b))
+    print(similarity(embedding_a, embedding_b))
 
