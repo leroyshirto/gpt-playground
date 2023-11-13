@@ -5,6 +5,13 @@
 make a venv `python -m venv .venv`
 Activate the venv `source .venv/bin/activate`
 install the requirements `pip install -r requirements.txt`
+`cp example.env .env` and add your openapi key
+
+Example use cases
+
+- `./src/chatbot` is an example assistant using the chat completions API
+- `./src/completions` is an example of creating a chatbot using the old completion API
+- `./src/similarities` is an example of using embeddings to do text similarity
 
 ## Notes and links
 

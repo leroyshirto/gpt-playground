@@ -14,6 +14,15 @@
             "envFile": "${workspaceFolder}/.env"
         },
         {
+            "name": "Chatbot Completions",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/completions/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
             "name": "Similarity",
             "type": "python",
             "request": "launch",
