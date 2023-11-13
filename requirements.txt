@@ -1,0 +1,4 @@
+openai
+numpy
+typed-dotenv==1.0.1
+fastapi
